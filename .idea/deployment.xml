@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="ikt" uploadOnCheckin="edd0a9d3-5985-41ab-b355-4d74206cd11a">
+    <serverData>
+      <paths name="ikt">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/pa" local="$PROJECT_DIR$" web="/pa" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="https://github.com/3mil1/pa_vs19_2.git" />
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
