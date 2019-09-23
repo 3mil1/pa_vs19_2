@@ -10,13 +10,12 @@
 <body>
 
 <?php
-//printimine print funktsiooni abil
-print 'see on esimene php rida<br>';
-print 'see on teine php rida<br>';
-print 'see on kolmas php rida<br>';
+print '<h1>Minu info</h1>';
+print '<p>Emil Varnomasing</p>';
+print '<p>vs19</p>';
+print '<p><a href="MAILTO:emilvarn@gmail.com"</a>Minu mail</p>';
 
-// echo abil printimine
-echo 'see on tekst echo abil';
 ?>
+
 </body>
 </html>
