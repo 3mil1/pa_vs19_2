@@ -27,9 +27,20 @@ git add failinimi
 ````
 Koosta muudatud failide kirjeldus
 ````
-git commit -m "Muudatuse kirjeldus"
+git commit -m "Muudatuse kirjeldus
+
 ````
 Lukka muudatused koos kirjeldusega kaugreposse
 ```
 git push -uf orign master
 ```
+
+* git kasutamine PhpStorm keskonnas
+```
+VSC -> Commit (command + K)
+```
+
+* Vali failid, millele sisu on vaja commitida
+* Maara vastav kirjeldus
+* Committi ara -> Commit and Push
+
