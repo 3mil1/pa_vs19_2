@@ -1,46 +1,41 @@
-# Progremmeerimise Alused
-Antud kursuse raames omandatakse baasteadmised programmeerimisest PHP keele alusel. 
-## Ajakava 
-* 19.09 Tarkvara paigaldamine ja seadistamine
-    ### Paigaldamine
-    * [PhpStorm](https://www.jetbrains.com/phpstorm/?fromMenu)
-    * [Git](https://git-scm.com/download/mac)
-    ### Seadistamine 
-    * PhpStorm General Settings (line numbers,wrap)
-    * [github.com](https://github.com)
-    * Version Control Settings (git, github) konto loomine
-    * [github.com](https://github.com)
-    * Version Control Settings (git, github) repo loomine
-    * PhpStorm Vejhrsion Control Settings (git, github)
+# Programmeerimise Alused
+Antud kursuse raames omandatakse baasteadmised programmeerimisest PHP keele alusel.
+## Ajakava
+
+### 19.09 Tarkvara paigaldamine ja seadistamine
+   ### Paigaldamine
+   * [PHP Storm](https://www.jetbrains.com/)
+   * [git](https://git-scm.com/)
+   
+   ### Seadistamine
+   * PHP General Settings (line numbers, (soft) wrap)
+   * [github.com](https://github.com/) konto loomine
+   * [github.com](https://github.com/) repo loomine
+   * Version Control (git, github)
+   * PhpStorm Version Control Settings (git, github)
    * PhpStorm githubi repo kloneerimine arvutisse
-   
-   ### 23.09.19
-   * git kasutamine 
-   
-   Lokaalse git repo inistaliseerimine
-````
+
+###  23.09.2019
+* git kasutamine käsurealt
+
+Lokaalse git repo initsialiseerimine
+```
 git init
-````   
-   Lisa vastav fail jalgimisele git poolt
-````
+```
+Lisa vastav fail jälgimisele git poolt
+```
 git add failinimi
-````
-Koosta muudatud failide kirjeldus
-````
-git commit -m "Muudatuse kirjeldus
-
-````
-Lukka muudatused koos kirjeldusega kaugreposse
 ```
-git push -uf orign master
+Koosta muudatud failile kirjeldus
 ```
-
-* git kasutamine PhpStorm keskonnas
+git commit -m "Muudatuse kirjeldus"
 ```
-VSC -> Commit (command + K)
+Lükka muudatused koos kirjeldustega kaugreposse
+```
+git push -uf origin master
 ```
 
-* Vali failid, millele sisu on vaja commitida
-* Maara vastav kirjeldus
-* Committi ara -> Commit and Push
-
+* git kasutamine PhpStrom keskkonnas
+```
+VCS -> Commit (Ctrl + K)
+```
